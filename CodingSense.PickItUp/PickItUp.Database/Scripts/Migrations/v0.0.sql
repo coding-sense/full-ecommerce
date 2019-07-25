@@ -1,0 +1,1 @@
+﻿INSERT INTO Product (NAME) VALUES ('sddsasd')
