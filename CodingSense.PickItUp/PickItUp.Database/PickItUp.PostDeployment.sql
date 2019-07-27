@@ -10,6 +10,4 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-SET NOEXEC ON
 :r .\Scripts\Migrations\v0.0.sql
-SET NOEXEC OFF

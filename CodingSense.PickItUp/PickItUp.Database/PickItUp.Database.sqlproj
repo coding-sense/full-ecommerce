@@ -25,6 +25,8 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
+    <GenerateCreateScript>False</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -73,5 +75,9 @@
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="PickItUp.PreDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PickItUp.Database.publish.xml" />
+    <None Include="PickItUp_1.Database.publish.xml" />
   </ItemGroup>
 </Project>
